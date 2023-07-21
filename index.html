@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)https://dellas-store.com.au/#home -->
+<html lang="en"><!-- Basic -->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>DYB</title>
+
+    <!-- Site Icons -->
+    <link rel="canonical" href="https://www.dellas-store.com.au/">
+    <link rel="shortcut icon" href="https://dellas-store.com.au/images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="https://dellas-store.com.au/images/apple-touch-icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="static/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="static/style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="static/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="shortcut icon" href="https://ozfoodhunter.com.au/favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com/">
+    <link rel="stylesheet" href="static/css1.css">
+    <!-- Vue -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+    <!-- Element UI -->
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+    <style>
+        .el-link.el-link--default{
+            color:white!important;
+        }
+
+        .el-link.el-link--default:hover{
+            color:#409EFF!important;
+        }
+
+        .el-carousel el-carousel--horizontal{
+            height: 100% !important;
+        }
+
+        .el-carousel__container{
+            height: 320px!important;
+            left: 20%!important;
+            width: 50% !important;
+        }
+    </style>
+</head>
+
+<body style="margin: 0px; overflow: visible;">
+
+<div id="app">
+    <!-- Start header -->
+    <header class="top-navbar" id="home">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="">
+                    <img src="static/logo.jpg" alt="" style="width:75px;height:75px;">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-rs-food"
+                        aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbars-rs-food">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">Contact Us</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="">Collaboration</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- End header -->
+
+    <!-- Start slides -->
+    <div id="slides" class="cover-slides" style="position: relative; overflow: hidden; width: 100%; height: 421.6px;top: 85px">
+        <el-carousel :interval="5000" arrow="always">
+            <el-carousel-item v-for="item in imgList" :key="item">
+                <img width="100%" height="100%" style="object-fit: contain" :src="item">
+            </el-carousel-item>
+        </el-carousel>
+    </div>
+    <!-- End slides -->
+
+    <!-- Start About -->
+    <div class="about-section-box menu-bg" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+
+                </div>
+                <div class="col-lg-8 col-md-12 col-sm-12 text-center">
+                    <div class="inner-column">
+                        <!-- <h4>About Us</h4> -->
+                        <p>At DYB Studio, we add personalized elements to your football shoes, allowing you to exude
+                            thestyle of your favorite football stars and infuse your shoes with a unique personal touch.
+                            We offer a wide range of personalized elements to choose from, including numbers,
+                            letters,national flags, and more, enabling your football shoes to showcase your individual style
+                            anddistinctive charm.
+                            Our customization process s simple and efficient, Our professional team will collaborate withyou
+                            to seamlessly incorporate your personalized elements into the shoe design, ensuring thatyou can
+                            showcase your own style on the field
+                            No longer limited to the similar choices available in the market, choose DYB Studio to
+                            transformyour football shoes into unique works of art and standout symbols. Contact us now to
+                            getstarted! :)</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End About -->
+    <!-- Start QT -->
+    <div class="qt-box qt-background">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-8 ml-auto mr-auto text-center">
+                    <p class="lead ">
+                        " Don't hesitate, customize through email, Instagram, and Facebook right now！ "
+                    </p>
+                    <span class="lead info_text">DYB</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-area bg-f sec-op">
+        <div class="container">
+            <div class="col-md-12">
+                    <div class="row pb-3">
+                        <div class="col-md-12">
+                            <ul class="text-white" style="line-height: 40px;">
+                                <li><p>address: 51 Quarry rd,Mornington,TAS,7018</p></li>
+                                <li><p>Email: dybstdio@gmail.com</p></li>
+                                <li><p>Facebook: <el-link href="https://www.facebook.com/profile.php?id=100093310847923&mibextid=LQQJ4d" :underline="false">https://www.facebook.com/profile.php?id=100093310847923&mibextid=LQQJ4d</el-link></p></li>
+                                <li><p>Instagram: <el-link href="https://instagram.com/dybstdio?igshid=OGQ5ZDc2ODk2ZA==" :underline="false">https://instagram.com/dybstdio?igshid=OGQ5ZDc2ODk2ZA==</el-link></p></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-2"></div>
+                    </div>
+                </center>
+            </div>
+        </div>
+    </div>
+
+<!--    <div class="container-fluid">-->
+<!--        <center><h1 class="m-3"><b></b></h1></center>-->
+<!--        <el-carousel :interval="5000" arrow="always">-->
+<!--            <el-carousel-item v-for="item in imgList" :key="item">-->
+<!--                <img width="100%" height="100%" style="object-fit: contain" :src="item">-->
+<!--            </el-carousel-item>-->
+<!--        </el-carousel>-->
+<!--    </div>-->
+    <div style="height: 50px">
+
+    </div>
+</div>
+
+<script>
+    new Vue({
+        el: '#app',
+        data:{
+          imgList: ['static/img1.jpg',
+              'static/img2.jpg',
+              'static/img3.jpg']
+        },
+        methods: {
+            showMessage() {
+                this.$message('Hello, World!'); // 使用Element UI的消息提示组件
+            }
+        }
+    });
+</script>
+
+</body>
+</html>
